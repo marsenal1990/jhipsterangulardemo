@@ -1,0 +1,11 @@
+version: '2'
+services:
+  jhipsterangularsample-postgresql:
+    image: postgres:11.2
+    # volumes:
+    #     - ~/volumes/jhipster/jhipsterangularsample/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=jhipsterangularsample
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
