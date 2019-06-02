@@ -1,0 +1,8 @@
+entity User {
+    name String,
+    firstname String,
+	username String,
+    email String,
+    phone String,
+    mobile String
+}
